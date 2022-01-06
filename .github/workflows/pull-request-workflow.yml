@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: recuperation du repo
-        uses: action/checkout@v2
+        uses: actions/checkout@v2
       - name: recuperation de java
         uses: actions/setup-java@v2
         with:
