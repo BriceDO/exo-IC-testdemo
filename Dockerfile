@@ -1,4 +1,4 @@
 FROM openjdk:11
 WORKDIR /app
-COPY testDemo-1.0.0/app.jar
-CMD["java", "-jar", "app.jar"]
+COPY testDemo-0.0.1-SNAPSHOT.jar ./app.jar
+CMD ["java", "-jar", "app.jar"]
