@@ -8,7 +8,7 @@ jobs:
       - name: recuperation du repo
         uses: actions/checkout@v2
       - name: recuperation de java
-        uses: actions/setup-java
+        uses: actions/setup-java@v2
         with:
           distribution: adopt
           java-version: 11
